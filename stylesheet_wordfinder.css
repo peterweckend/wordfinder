@@ -1,0 +1,189 @@
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+	 color: #7d1935;
+   text-decoration: none;
+   font-family: 'Raleway', sans-serif;
+}
+
+body {
+   background-color: #f5f3ee;
+}
+header {
+	text-align: center;
+	font-size: 300%;
+}
+
+nav {
+   background-color: #7d1935; 
+   clear:both;
+   font-size: 20px;
+
+}
+nav ul {
+   margin: 0px;
+   padding: 15px 0px 15px 20px;
+}
+
+nav li {
+   display: inline;
+   margin-right: 40px;
+
+}
+
+nav li a {
+   color: #f5f3ee;
+}
+
+nav li a:hover {
+   color: #400d1b;
+}
+
+nav li a.current {
+   color: #f5f3ee;
+}
+
+#title {
+   padding: 40px 0px 0px 0px;
+   font-size: 50px;
+ /*  border-bottom: #262626;
+   border-style: solid;
+   border-width: 50%*/
+
+}
+
+
+
+#subtitle {
+   padding-top: 30px;
+   font-size: 30px;
+   font-weight: 500;
+   margin-bottom: 30px;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+#footer {
+   text-align: center;
+}
+
+
+.link:hover {
+   color: #919ba0;
+}
+
+form {
+   margin-top: 60px;
+   margin-left: 50px;
+}
+
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fdfcf6;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=button] {
+    padding:5px 15px; 
+    background:#4a96ad; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 100px;
+}
+
+input[type=button]:active {
+   background: #366c7d;
+}
+
+select {
+  background: #fdfcf6;
+  border: 2px solid #4a96ad;
+  color: #7d1935;
+  margin-left: 90px;
+  width: 50%;
+
+}
+
+.group {
+  display: none;
+}
+
+form {
+  display: table;
+  border: 2px solid #ccc;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+p {
+  display: table-row;
+
+}
+
+label {
+  display: table-cell;
+  height: 40px;
+  padding-right: 10px;
+
+}
+
+input {
+  display: table-cell;
+}
+
+#split_tipamt {
+  margin-top: 20px;
+}
+
+.thick {
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+   nav li {
+      margin-right: 12px;
+   }
+   nav ul {
+      margin: 0px;
+      padding: 10px 0px 10px 20px;
+      font-size: 80%
+   }
+
+   #title {
+      font-size: 100%;
+   }
+
+   #subtitle {
+      padding-top: 25px;
+      font-size: 50%;
+      margin-bottom: 25px;
+   }
+
+   #relcour {
+      font-size: 26px;
+   }
+
+
+}
+
