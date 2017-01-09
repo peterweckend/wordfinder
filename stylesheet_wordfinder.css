@@ -6,13 +6,13 @@
    font-size: 100%;
    vertical-align: baseline;
    background: transparent;
-	 color: #7d1935;
+	 color: #4484ce;
    text-decoration: none;
    font-family: 'Raleway', sans-serif;
 }
 
 body {
-   background-color: #f5f3ee;
+   background-color: #d9d9d9;
 }
 header {
 	text-align: center;
@@ -20,7 +20,7 @@ header {
 }
 
 nav {
-   background-color: #7d1935; 
+   background-color: #4484ce; 
    clear:both;
    font-size: 20px;
 
@@ -37,15 +37,15 @@ nav li {
 }
 
 nav li a {
-   color: #f5f3ee;
+   color: #d9d9d9;
 }
 
 nav li a:hover {
-   color: #400d1b;
+   color: #25568d;
 }
 
 nav li a.current {
-   color: #f5f3ee;
+   color: #d9d9d9;
 }
 
 #title {
@@ -74,7 +74,7 @@ nav li a.current {
 
 
 .link:hover {
-   color: #919ba0;
+   color: #25568d;
 }
 
 form {
@@ -92,12 +92,12 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-    border-color:#333;
+    border-color:#25568d;
 }
 
 input[type=button] {
     padding:5px 15px; 
-    background:#4a96ad; 
+    background:#f19f4d; 
     border:0 none;
     cursor:pointer;
     -webkit-border-radius: 5px;
@@ -110,12 +110,12 @@ input[type=button] {
 }
 
 input[type=button]:active {
-   background: #366c7d;
+   background: #d47311;
 }
 
 select {
   background: #fdfcf6;
-  border: 2px solid #4a96ad;
+  border: 2px solid #25568d;
   color: #7d1935;
   margin-left: 90px;
   width: 50%;
@@ -128,7 +128,7 @@ select {
 
 form {
   display: table;
-  border: 2px solid #ccc;
+  border: 2px solid #4484ce;
   margin-left: auto;
   margin-right: auto;
   padding-top: 15px;
@@ -140,6 +140,13 @@ form {
 p {
   display: table-row;
 
+}
+
+h5 {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 label {

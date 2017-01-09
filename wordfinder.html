@@ -30,14 +30,17 @@
 					<label for="subtotal">Enter scrabble letters (lowercase, no spaces): </label>
 					<input type="text" id="letters" name="letters" />
 
-					<input type="button" onclick="FindWords()" value="Submit" />
+					<input type="button" onclick="InitialWords()" value="Submit" />
 				</p>
 
 			</form>
 
+			<h5 id="wordsfound"></h5>
+
 
 		<script src="jquery-3.1.1.min.js"></script>
 		<script src = "js_wordlist.js"></script>
+		<script src = "js_wordhash.js"></script>		
 		<script src = "js_wordfinder.js"></script>
 
 	</body>

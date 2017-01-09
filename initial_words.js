@@ -1,7 +1,6 @@
 // used this to create the initial dictionary
 
 wordhash = {}
-//wordlist2 = ['banana', 'pie', 'cow', 'eip', 'pei'];
 for (var i = 0; i < wordlist.length; i++){
 	
 	var wordkey = getOrdered(wordlist[i]);
