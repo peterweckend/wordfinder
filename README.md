@@ -13,5 +13,5 @@ I decided to try a hash table in the following way: the hash function would arra
 The program uses the hash table in the following way:
 Once you type in a string, it is sorted into alphabetical order. Then, the program finds the power set (minus the empty string) of your alphabetized string, and the set of alphabetized buckets is searched for every entry in the power set. The dictionary words stored at matching buckets are returned.
 
-Unfortunately, this isn't a very optimal system, as there are thousands of buckets that only contain one word, and I just used a regular *for* loop to search through the buckets for all 2^N - 1 input subsets. 
-After I finished, I looked up some other (more efficient) strategies for implementing a word finder like this. Tries (https://en.wikipedia.org/wiki/Trie) look to be the best way of setting it up, but modifying my hash function to be less specific, hashing it a second time, or finding a faster way to search through the buckets might work as well. I hope to try some of these out when I have the time. 
+Unfortunately, this isn't a very optimal system, as there are thousands of buckets that only contain one word, and almost as many buckets as there are words in the dictionary. 
+After I finished, I looked up some other (more efficient) strategies for implementing a word finder like this. Tries (https://en.wikipedia.org/wiki/Trie) look to be the best way of setting it up, but modifying my hash function to be less specific or perhaps hashing it a second time. I hope to try some of these out when I have the time. 
