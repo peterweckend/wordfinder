@@ -1,10 +1,11 @@
-// used this to create the initial dictionary
+// used this to help create the initial dictionary
 
 wordhash = {}
 for (var i = 0; i < wordlist.length; i++){
 	
 	var wordkey = getOrdered(wordlist[i]);
 
+	// create dictionary entry if needed, else store value
 	if (wordkey in wordhash) {
 		wordhash[wordkey].push(wordlist[i]);
 	}
@@ -16,7 +17,7 @@ for (var i = 0; i < wordlist.length; i++){
 	}
 }
 
-
+// string manipulating into dictionary format
 for (var key in wordhash) {
 	var output = '\''+key+'\': [';
 

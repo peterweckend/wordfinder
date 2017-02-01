@@ -76,7 +76,7 @@ var wordlist = [
   'abbesses',
   'abbey',
   'abbeys',
-  'abbot',
+  '2abbot',
   'abbotcy',
   'abbots',
   'abdicate',
