@@ -1,6 +1,6 @@
 # Scrabble Word Finder
 
-http://peterweckend.com/wordfinder.html
+~~http://peterweckend.com/wordfinder.html~~
 
 Scrabble word finder that, given a set of letters, returns all words in the OSPD (from http://www.puzzlers.org/) that can be formed by rearranging some or all of the letters provided. 
 At the moment, it becomes slower/unwieldy when given more than ~15 letters at a time.
